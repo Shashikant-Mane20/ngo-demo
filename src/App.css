@@ -1,0 +1,13 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border;
+}
+
+.swiper-pagination-bullet {
+  @apply w-3 h-3 bg-gray-400 rounded-full !important;
+}
+
+.swiper-pagination-bullet-active {
+  @apply bg-gray-700 rounded-full  !important;
+}
